@@ -46,7 +46,7 @@ public class FindStringOccurance {
 
     public static void main(String[] args){
         FindStringOccurance fo = new FindStringOccurance();
-        fo.print();
-       // fo.eachCharCount();
+        //fo.print();
+        fo.eachCharCount();
     }
 }

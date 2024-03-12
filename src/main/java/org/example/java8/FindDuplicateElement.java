@@ -75,7 +75,7 @@ public class FindDuplicateElement {
 
        List<String> str =   Arrays.stream(numbers).boxed()
                  .map(i -> i + "")
-                 .filter(i -> i.startsWith("2"))
+                 .filter(i -> i.startsWith("1"))
                  .collect(Collectors.toList());
 
 
@@ -102,13 +102,13 @@ public class FindDuplicateElement {
 
     public static void main(String[] args){
         FindDuplicateElement fdo = new FindDuplicateElement();
-        fdo.duplicateElements();
-        fdo.uniqueElements();
-        fdo.firstNonRepeatElements();
-        fdo.findSecondHighestElements();
-        fdo.findLongestStringInArray();
-        fdo.findNumStartsWithOne();
-        fdo.stringJoinMethod();
+      //  fdo.duplicateElements();
+      //  fdo.uniqueElements();
+       // fdo.firstNonRepeatElements();
+       // fdo.findSecondHighestElements();
+      //  fdo.findLongestStringInArray();
+       // fdo.findNumStartsWithOne();
+       // fdo.stringJoinMethod();
         fdo.skipAndLimitEx();
     }
 
