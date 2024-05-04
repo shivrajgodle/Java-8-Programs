@@ -25,8 +25,23 @@ public class CountDuplicateCharectors {
         }
     }
 
+
+    public static void countDuplicateString(String str){
+        HashMap<String , Integer> hm = new HashMap<>();
+
+        for(String s : str.split("")){
+            if(hm.containsKey(s)){
+                hm.put(s,hm.get(s) +  1);
+            }else{
+                hm.put(s,1);
+            }
+        }
+        System.out.println(hm);
+    }
+
     public static void main(String[] args) {
         String str = "helloshivrajhowareyou";
-        countDuplicateCharectors(str);
+        //countDuplicateCharectors(str);
+        countDuplicateString(str);
     }
 }
